@@ -32,7 +32,7 @@ public class UserRegistr extends HttpServlet {
 		String master = request.getParameter("Master");
 		String url = "WEB-INF/jsp/RegistrResult.jsp";
 		String massage = "";
-		//データベースと連携、登録を行う
+		//データベースと連携、登録を行う。
 		System.out.println(master);
 		if (master.equals("1234")) {
 			if (name.length() > 0 && pass.length() >= 4) {
