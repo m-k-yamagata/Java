@@ -20,6 +20,8 @@ ID			<input type="text" name="id"><br>
 パスワード	<input type="text" name="pass"><br>
 <input type="submit" value="ログイン">
 </form>
+<br>
+<a href="Registr">ユーザー登録</a>
 </div>
 </body>
 </html>
